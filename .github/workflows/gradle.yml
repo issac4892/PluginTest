@@ -24,3 +24,8 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew shadowJar
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: Build Output
+        path: .\build\libs\PluginTest-1.0-SNAPSHOT-all.jar
