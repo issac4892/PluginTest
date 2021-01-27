@@ -1,0 +1,7 @@
+name: PluginTest
+main: io.github.issac4892.plugintest.Main
+version: 0.1
+api-version: 1.13
+author: issac4892
+website: http://issac4892.github.io
+description: "Just a test plugin"
